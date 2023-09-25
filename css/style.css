@@ -11,7 +11,7 @@
 }
 .m-logo{
     display: none;
-}
+} 
 .tam_t_m_txt{
     display: none;
 }
@@ -606,6 +606,8 @@ button{
         left: -821px;
 
         transition: 0.3s;
+
+        opacity: 0;
     }
     .m-menu::before{
         content: '';
@@ -636,7 +638,7 @@ button{
         top: 30px;
         left: 30px;
         
-        transition: 0.3s;
+        transition: 0.5s;
     }
     label[for="icon"] span{
         position: absolute;
@@ -667,6 +669,7 @@ button{
     }
     #icon:checked ~ .m-menu{
         left: 0;
+        opacity: 1;
     }
     .m-logo{
         display: block;
